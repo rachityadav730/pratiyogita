@@ -11,7 +11,7 @@ const Index = () => {
     return (
         <div>
            {['xxl'].map((expand) => (
-        <Navbar key={expand} expand={expand} className="bg-body-tertiary mb-3">
+        <Navbar key={expand} expand={expand} className="bg-body-tertiary">
           <Container fluid>
             <Navbar.Brand href="#">
             <img
