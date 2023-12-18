@@ -7,17 +7,29 @@ const Index = (props) => {
     <div style={{padding: "20px"}}>
 
       <div>
-        <h1 className='h1_style'>{props.heading}</h1>
-        <p  className='p_style'>{props.paragraph}</p>
+        {
+          props.heading_req == true ?  <h1 className='h1_style'>{props.heading}</h1>  : ""
+        }
+        <div style={{width: "100%"}}>
+          <span style={{width: "20%"}}>
+          <h4 style={{width: "20%"}}>{props.heading3} </h4>
+          </span>
+          <span style={{width: "60%"}}>
+          <p style={{width: "60%"}}>{props.paragraph}</p>
+          </span>
+        </div>
       </div>
         <div style={{textAlign: "Center", padding: "10px"}}>
-        <Button variant="success">Enroll</Button>{' '}
-        <Button variant="success">Register</Button>{' '}
-
+        {
+          props.button_req == true ? 
+          <>
+            <Button variant="success">Enroll</Button>
+              <Button variant="success">Register</Button>
+            </>
+          
+          : ""
+        }
         </div>
-
-        
-
     </div>
   )
 }
