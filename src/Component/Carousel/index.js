@@ -4,6 +4,9 @@ import logo from '../../Images/logo.png'
 import fisrt_image from '../../Images/first_image.jpg'
 import ssc from '../../Images/ssc2.jpg'
 import Police from '../../Images/Police.jpg'
+import BgI1 from '../../Images/bg_3.jpg'
+import BgI2 from '../../Images/bg_2.jpg'
+
 const Index = () => {
   return (
     <div> 
@@ -11,9 +14,9 @@ const Index = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={fisrt_image}
+          src={BgI1}
           alt="First slide"
-          height='600px'
+          height='800px'
         />
         <Carousel.Caption>
           <h5>UPSC</h5>
@@ -23,9 +26,9 @@ const Index = () => {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src={Police}
+          src={BgI2}
           alt="Second slide"
-          height='600px'
+          height='800px'
         />
         <Carousel.Caption>
           <h5>Police</h5>
@@ -37,7 +40,7 @@ const Index = () => {
           className="d-block w-100"
           src={ssc}
           alt="Third slide"
-          height='600px'
+          height='800px'
         />
         <Carousel.Caption>
           <h5>Ssc</h5>

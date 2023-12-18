@@ -52,7 +52,7 @@ const Index = () => {
                   </NavDropdown>
                   <Nav.Link href="/faculty">Add Cart</Nav.Link>
                   
-                  <Button variant="success">Login/Success</Button>{' '}
+                  <Button variant="success">Login/Sign up</Button>{' '}
                   
                 </Nav>
               </Offcanvas.Body>
