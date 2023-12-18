@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../Component/Navbar'
 import Footer from '../Component/Footer'
-const Faculty = () => {
+const Upsc = () => {
   return (
     <div>
-       <Navbar/>
-       Faculty
+    <Navbar/>
+    Upsc
+    <Footer/>
     </div>
   )
 }
 
-export default Faculty
+export default Upsc

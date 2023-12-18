@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../Component/Navbar'
 import Footer from '../Component/Footer'
-const Faculty = () => {
+const Delhi_police = () => {
   return (
     <div>
-       <Navbar/>
-       Faculty
-    </div>
+        <Navbar/>
+        Delhi_police</div>
   )
 }
 
-export default Faculty
+export default Delhi_police

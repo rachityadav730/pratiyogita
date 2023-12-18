@@ -41,18 +41,18 @@ const Index = () => {
                     title="Courses"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#action3">UPSC</NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="/upsc_courses">UPSC</NavDropdown.Item>
+                    <NavDropdown.Item href="/ssc_courses">
                       SSC
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#action4">
+                    <NavDropdown.Item href="/delhi_courses">
                       Delhi Police
                     </NavDropdown.Item>
                     
                   </NavDropdown>
                   <Nav.Link href="/faculty">Add Cart</Nav.Link>
                   
-                  <Button variant="success">Login/Sign up</Button>{' '}
+                  <Button href="/login" variant="success">Login/Sign up</Button>{' '}
                   
                 </Nav>
               </Offcanvas.Body>

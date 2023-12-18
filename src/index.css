@@ -20,4 +20,8 @@
 .white_color{
   color: white;
 }
+.global_container{
+  padding: 20px;
+  background-color: cornsilk;
+}
 
