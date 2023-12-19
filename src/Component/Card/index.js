@@ -20,7 +20,7 @@ const Index = () => {
                 <Card.Text>
                 At Pratiyogita, we believe in nurturing future leaders and shaping destinies. With a commitment to excellence, we stand as a beacon of guidance for aspirants preparing for the prestigious UPSC exams. Our coaching center is not just an institute; it's a platform where dreams meet dedication and perseverance.
                 </Card.Text>
-                <Button variant="success">View Courses</Button>
+                <Button href = "/upsc_courses" variant="success">View Courses</Button>
                 </Card.Body>
             </Card>
 
@@ -32,7 +32,7 @@ const Index = () => {
                 <Card.Text>
                 Welcome to Pratiyogita, where we are dedicated to guiding and mentoring aspirants to excel in SSC exams. Our mission is to provide top-notch coaching, personalized attention, and comprehensive study materials to help you achieve your dream of a successful career in government services.
                 </Card.Text>
-                <Button variant="success">View Courses</Button>
+                <Button href = "/ssc_courses"  variant="success">View Courses</Button>
                 </Card.Body>
             </Card>
 
@@ -44,7 +44,7 @@ const Index = () => {
                 <Card.Text>
                 Welcome to Pratiyogita, where we are dedicated to helping you achieve success in the Delhi Police recruitment exams. Our coaching center is committed to providing expert guidance, comprehensive study materials, and personalized coaching to ensure that you are well-prepared for the challenges of the Delhi Police exams.
                 </Card.Text>
-                <Button variant="success">View Courses</Button>
+                <Button href = "/delhi_courses"  variant="success">View Courses</Button>
                 </Card.Body>
             </Card>
             </div>
