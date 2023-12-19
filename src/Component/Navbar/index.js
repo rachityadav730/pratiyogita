@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
@@ -7,7 +7,13 @@ import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import logo from '../../Images/logo.png'
+import axios from 'axios';
 const Index = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    axios.get('http://localhost:3000/todos');
+  }, []);
     return (
         <div>
            {['xxl'].map((expand) => (
